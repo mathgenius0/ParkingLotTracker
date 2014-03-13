@@ -1,3 +1,7 @@
+/**
+ * This class serves as a parking lot that the user wishes to save, load, or edit.
+ */
+
 package cs275.parking.tracker;
 
 import java.util.ArrayList;
@@ -26,6 +30,7 @@ public class ParkingLot extends CMObject {
 		prices = priceranges;
 	}
 
+	/** This method is needed for cloudmine use */
 	@Override
 	public String getClassName() {
 		return CLASS_NAME;

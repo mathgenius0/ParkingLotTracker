@@ -1,3 +1,7 @@
+/**
+ * This class serves as a price range object that the user enters for a specific duration of time.
+ */
+
 package cs275.parking.tracker;
 
 import java.text.NumberFormat;
@@ -41,6 +45,7 @@ public class PriceRange extends CMObject {
 		return dateformatter.format(hour) + " - " + moneyformatter.format(price);
 	}
 
+	/** This method is needed for cloudmine use */
 	@Override
 	public String getClassName() {
 		return CLASS_NAME;

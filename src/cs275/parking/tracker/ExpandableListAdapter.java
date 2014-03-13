@@ -1,5 +1,9 @@
-package cs275.parking.tracker;
+/**
+ * Custom class that represents an expandable list adapter.  This is used ONLY for processing results and is ONLY used for user-
+ * friendly formatting purposes.
+ */
 
+package cs275.parking.tracker;
 
 import java.util.ArrayList;
 

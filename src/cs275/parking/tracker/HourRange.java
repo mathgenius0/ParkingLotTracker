@@ -1,3 +1,7 @@
+/**
+ * This class serves as the time duration that a user enters for a specific parking lot.
+ */
+
 package cs275.parking.tracker;
 
 import java.text.DateFormat;
@@ -67,7 +71,7 @@ public class HourRange extends CMObject {
 	public void setDay(DAY day) {
 		this.day = day;
 	}
-
+	
 	@Override
 	public String toString() {
 		String open = formatter.format(new GregorianCalendar(0,0,0,openHour,openMinute).getTime());
