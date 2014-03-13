@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parking Lot Tracker</string>
+
+    <string name="lblnew">Add New Parking Lot</string>
+
+    <string name="lbllookupall">Lookup All Parking Lots</string>
+
+    <string name="lbllookuplocation">Lookup Parking Lot By Location</string>
+
+    <string name="lbllatitude">Latitude:</string>
+
+    <string name="lbllongitude">Longitude:</string>
+
+    <string name="lblreturn">Return</string>
+
+    <string name="lbladd">Add</string>
+
+    <string name="lblname">Name:</string>
+
+    <string name="lblhours">Hours:</string>
+
+    <string name="lblprices">Prices:</string>
+
+    <string name="lbllookup">Lookup</string>
+
+    <string name="lbladdhour">Add Hour</string>
+
+    <string name="lbladdprice">Add Price</string>
+
+    <string name="lblday">Day</string>
+
+    <string name="lblopening">Opening</string>
+
+    <string name="lblclosing">Closing</string>
+
+    <string name="lblcancel">Cancel</string>
+
+    <string name="lblaccept">Accept</string>
+
+    <string name="lblprice">Price</string>
+
+    <string name="lbltime">For Time Less Than</string>
+
+    <string name="lblmiles">Miles Away:</string>
+
+</resources>

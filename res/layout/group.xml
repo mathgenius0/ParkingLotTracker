@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtresultslat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblresultslat"
+        android:layout_alignBottom="@+id/lblresultslat"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/lblresultslat" />
+
+    <TextView
+        android:id="@+id/lblresultslat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtresultslon"
+        android:layout_alignBottom="@+id/txtresultslon"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/txtresultslon"
+        android:text="@string/lbllatitude" />
+
+    <TextView
+        android:id="@+id/txtresultslon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lblresultslon"
+        android:layout_alignBottom="@+id/lblresultslon"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/lblresultslon" />
+
+    <TextView
+        android:id="@+id/txtresultsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/lblresultsname"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblresultsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:text="@string/lblname"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblresultslon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblresultsname"
+        android:layout_marginLeft="40dp"
+        android:text="@string/lbllongitude" />
+
+</RelativeLayout>
